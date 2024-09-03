@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+</head>
+<body>
+    <p>Formulario</p>
+    
+
+    <form action=""method="">
+            <fieldset>
+                <legend>Cadastro Clientes</legend>
+                <label for="">Nome:</label>
+                <input type="text"><br>
+                <label for="">Email:</label>
+                <input type="text"><br>
+                <label for="">Contato:</label>
+                <input type="number"name=""id="">
+            </fieldset>
+
+            <fieldset>
+                <p>Listas de Carros</p>
+        <select name="ListaCarros" id="ListaCarros">
+
+        <option disabled selected hidden >Selecione</option>
+        <option value="Celta">Celta</option>
+        <option value="evoque">Jetta</option>
+        <option value="evoque">HB20</option>
+        <option value="evoque">Mercedez</option>
+        <option value="evoque">RAM</option>
+        </select>
+        
+        <p>Região</p>
+        <input autocomplete="on" list="região" placeholder="Ex:São Paulo">
+        <datalist id="região">
+            <option value="São Paulo"></option>
+            <option value="Juquitiba"></option>
+            <option value="Goiás"></option>
+            <option value="Parana"></option>
+           
+        </datalist>
+        <br><br>
+        <input type="range" name="" id="">
+        
+        <br><br>
+        <label for="Feedback">Deixe seu Feedback Aqui</label>
+        
+        <textarea name="Feedback" id="Feedback" cols="30" rows="10"
+        required placeholder="Escreva Aqui."maxleng="150"maxleng="100"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
